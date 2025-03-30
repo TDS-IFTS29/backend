@@ -220,7 +220,7 @@ Se refiere al objeto actual en el que se está escribiendo el código,
 // Esta es la base del sistema de herencia prototípica de JavaScript.
 
 //FUNCION CONSTRUCTURA
-// function Persona(nombre, apellido, edad, genero, intereses) {
+ function Persona(nombre, apellido, edad, genero, intereses) {
     this.nombre = nombre;
     this.apellido = apellido;
     this.edad = edad;
@@ -235,5 +235,4 @@ Se refiere al objeto actual en el que se está escribiendo el código,
     console.log(`Hola, soy ${this.nombre}`);
   };
 
-  // si en vez de usar prototipo la colocamos dendro del constructor no es eficiente
-  
+  // si en vez de usar prototipo la colocamos dendro del constructor no es eficiente  
