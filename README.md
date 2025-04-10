@@ -48,3 +48,31 @@ Este ejemplo demuestra cómo crear módulos personalizados en Node.js para organ
 
 ```bash
 node index.js
+```
+
+## ⚡️ Manejo de eventos con Node.js (EventEmitter)
+
+Este proyecto muestra cómo definir y utilizar eventos personalizados en Node.js mediante el módulo `events`, permitiendo ejecutar código específico cuando ocurre un determinado evento.
+
+### 📌 Descripción del archivo `eventos.js`
+
+- Importa el módulo `events` e instancia un objeto `EventEmitter`.
+- Define un evento llamado `'datos'`.
+- Asocia este evento con una función manejadora que imprime la fecha en consola.
+- Utiliza `setInterval()` para emitir automáticamente el evento `'datos'` cada 500 milisegundos.
+
+### 🚀 Cómo ejecutar
+
+1. Clonar o descargar el repositorio.
+2. Ubicarse en la carpeta del proyecto desde la terminal.
+3. Ejecutar el archivo con Node.js:
+
+```bash
+node eventos.js
+```
+Salida Esperada
+```bash
+Evento "datos" activado en: 2025-04-10T14:20:30.123Z
+Evento "datos" activado en: 2025-04-10T14:20:30.623Z
+Evento "datos" activado en: 2025-04-10T14:20:31.123Z
+```
