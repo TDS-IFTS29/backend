@@ -18,8 +18,8 @@ Este proyecto muestra cómo crear un servidor HTTP básico con Node.js, que resp
 
 ```bash
 node servidor-multiples-respuestas.js
+```
 
----
 
 ## 📂 Lectura de archivos locales con `fs` – MÓDULO 4
 
