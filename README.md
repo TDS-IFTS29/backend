@@ -1,5 +1,11 @@
 # Prácticas de la materia Desarrollo de Sistemas Web BackEnd  
 
+# MÓDULO 2
+
+Introducción a Javascript. 
+Ejercicios de la guía
+
+
 # MÓDULO 4
 
 ## 🌐Servidor básico en Node.js
