@@ -2,13 +2,11 @@
 # MEETS
 Resúmenes de los google meets.
 
-# MÓDULO 2
+# MÓDULO 2: Introducción a Javascript
 
-Introducción a Javascript. 
 Ejercicios básicos de la guía
 
-
-# MÓDULO 4
+# MÓDULO 4: Introducción a Node JS
 
 ## 🌐Servidor básico en Node.js
 
