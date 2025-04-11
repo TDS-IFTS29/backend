@@ -1,9 +1,11 @@
 # Prácticas de la materia Desarrollo de Sistemas Web BackEnd  
+# MEETS
+Resúmenes de los google meets.
 
 # MÓDULO 2
 
 Introducción a Javascript. 
-Ejercicios de la guía
+Ejercicios básicos de la guía
 
 
 # MÓDULO 4
