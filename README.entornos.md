@@ -11,7 +11,6 @@ mi-proyecto-env/
 ├── config.js                 # Módulo que gestiona las variables de entorno
 ├── env.variables.json       # Archivo con variables por entorno
 ├── index.js                 # Archivo principal que levanta un servidor web
-└── package.json
 ```
 
 ---
