@@ -8,7 +8,7 @@ Ejercicios básicos de la guía
 
 # MÓDULO 4: Introducción a Node JS
 
-## 🌐Servidor básico en Node.js
+## 🌐Servidor básico en Node.js (01;02;03)
 
 Este proyecto muestra cómo crear un servidor HTTP básico con Node.js, que responde con distintos tipos de contenido según la ruta:
 
@@ -28,17 +28,7 @@ Este proyecto muestra cómo crear un servidor HTTP básico con Node.js, que resp
 ```bash
 node servidor-multiples-respuestas.js
 ```
-
-
-## 📂 Lectura de archivos locales con `fs`
-
-Este ejemplo muestra cómo leer un archivo de texto local utilizando el módulo `fs` (File System) de Node.js. Permite extraer y mostrar el contenido del archivo desde la consola de forma asíncrona.
-
-### 📄 Descripción del archivo `leerArchivo.js`
-
-El archivo utiliza `fs.readFile` para leer un archivo de texto llamado `archivo.txt` en la misma carpeta. Si el archivo existe, su contenido se muestra en consola. Si no existe, se captura y muestra el error.
-
-## 🧩 Creación y uso de módulos propios
+## 🧩 Creación y uso de módulos propios (04)
 
 Este ejemplo demuestra cómo crear módulos personalizados en Node.js para organizar mejor nuestro código, permitiendo la reutilización de funciones en distintos archivos del proyecto.
 
@@ -56,7 +46,18 @@ Este ejemplo demuestra cómo crear módulos personalizados en Node.js para organ
 node index.js
 ```
 
-## ⚡️ Manejo de eventos con Node.js (EventEmitter)
+
+## 📂 Lectura de archivos locales con `fs` (05)
+
+Este ejemplo muestra cómo leer un archivo de texto local utilizando el módulo `fs` (File System) de Node.js. Permite extraer y mostrar el contenido del archivo desde la consola de forma asíncrona.
+
+### 📄 Descripción del archivo `leerArchivo.js`
+
+El archivo utiliza `fs.readFile` para leer un archivo de texto llamado `archivo.txt` en la misma carpeta. Si el archivo existe, su contenido se muestra en consola. Si no existe, se captura y muestra el error.
+
+
+
+## ⚡️ Manejo de eventos con Node.js (EventEmitter) (06)
 
 Este proyecto muestra cómo definir y utilizar eventos personalizados en Node.js mediante el módulo `events`, permitiendo ejecutar código específico cuando ocurre un determinado evento.
 
@@ -83,6 +84,6 @@ Evento "datos" activado en: 2025-04-10T14:20:30.623Z
 Evento "datos" activado en: 2025-04-10T14:20:31.123Z
 ```
 
-## 📄 Entornos de ejecución
+## 📄 Entornos de ejecución (07)
 
 - [Guía de configuración por entorno](README.entornos.md)
