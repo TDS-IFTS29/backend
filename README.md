@@ -87,3 +87,10 @@ Evento "datos" activado en: 2025-04-10T14:20:31.123Z
 ## 📄 Entornos de ejecución (07)
 
 - [Guía de configuración por entorno](README.entornos.md)
+
+## 📄 Arquitectura MVC (08)
+
+- [Guía MVC](README.mvc.md)
+
+## 📄 Arquitectura MVC con Base de Datos JSON (09)
+[Ir al README del servidor MVC JSON](README-servidor-mvc-json.md)
