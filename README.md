@@ -93,4 +93,4 @@ Evento "datos" activado en: 2025-04-10T14:20:31.123Z
 - [Guía MVC](README.mvc.md)
 
 ## 📄 Arquitectura MVC con Base de Datos JSON (09)
-[Ir al README del servidor MVC JSON](README-servidor-mvc-json.md)
+[README del servidor MVC JSON](README-servidor-mvc-json.md)
