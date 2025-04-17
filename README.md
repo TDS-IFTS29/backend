@@ -82,3 +82,7 @@ Evento "datos" activado en: 2025-04-10T14:20:30.123Z
 Evento "datos" activado en: 2025-04-10T14:20:30.623Z
 Evento "datos" activado en: 2025-04-10T14:20:31.123Z
 ```
+
+## 📄 Entornos de ejecución
+
+- [Guía de configuración por entorno](README.entornos.md)
