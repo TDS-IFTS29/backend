@@ -94,3 +94,7 @@ Evento "datos" activado en: 2025-04-10T14:20:31.123Z
 
 ## 📄 Arquitectura MVC con Base de Datos JSON (09)
 [README del servidor MVC JSON](README-servidor-mvc-json.md)
+
+# MÓDULO 5: Tareas asíncronas
+
+**Callback**: 01-ejemplo-callback.js
