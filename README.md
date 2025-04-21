@@ -97,4 +97,8 @@ Evento "datos" activado en: 2025-04-10T14:20:31.123Z
 
 # MÓDULO 5: Tareas asíncronas
 
-**Callback**: 01-ejemplo-callback.js
+**Callback**: 01-callback.js
+
+**Promesas**: 02-03-04-05-06
+
+
