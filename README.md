@@ -101,4 +101,6 @@ Evento "datos" activado en: 2025-04-10T14:20:31.123Z
 
 **Promesas**: 02-03-04-05-06
 
+**async/await**: 07
+
 
