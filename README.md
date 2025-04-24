@@ -103,4 +103,18 @@ Evento "datos" activado en: 2025-04-10T14:20:31.123Z
 
 **async/await**: 07
 
+**Fetch**: 08-09-10-11-12-13
+
+**URL Javascript**: 14
+
+**Cors**: 15
+[README CORS](README-Cors.md)
+
+
+
+
+
+
+
+
 
