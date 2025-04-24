@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo Fetch</title>
+</head>
+<body>
+  <h1>Lista de Usuarios</h1>
+
+  <!-- Botón que al hacer clic ejecutará la función cargarUsuarios -->
+  <button onclick="cargarUsuarios()">Cargar usuarios</button>
+
+  <!-- Lista vacía donde se van a insertar los usuarios -->
+  <ul id="lista"></ul>
+
+  <script>
+    // Esta función se ejecuta al hacer clic en el botón
+    function cargarUsuarios() {
+      // Hacemos una petición HTTP GET a una API pública que simula usuarios
+      fetch('https://jsonplaceholder.typicode.com/users')
+        // Cuando la respuesta llegue, la convertimos en formato JSON
+        .then(response => response.json())
+
+        // Una vez tenemos los datos JSON, los procesamos
+        .then(data => {
+          // Obtenemos la lista <ul> donde vamos a poner los usuarios
+          const lista = document.getElementById('lista');
+          // Limpiamos la lista por si había datos previos
+          lista.innerHTML = '';
+
+          // Recorremos cada usuario del array y creamos un <li> para mostrarlo
+          data.forEach(usuario => {
+            const item = document.createElement('li'); // Creamos el <li>
+            item.textContent = `${usuario.name} (${usuario.email})`; // Agregamos nombre y mail
+            lista.appendChild(item); // Lo agregamos a la lista
+          });
+        })
+
+        // Si hay algún error en la petición, lo mostramos en la consola
+        .catch(error => {
+          console.error('Error al cargar los usuarios:', error);
+        });
+    }
+  </script>
+</body>
+</html>

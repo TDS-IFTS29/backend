@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch Headers</title>
+</head>
+<body>
+  <h1>Petición con cabeceras</h1>
+  <button onclick="enviarPeticion()">Enviar</button>
+
+  <script>
+    function enviarPeticion() {
+      const headers = new Headers();
+      headers.set('Content-Type', 'application/json');
+      headers.set('X-Custom-Header', 'HolaServidor');
+      headers.set('Authorization', 'Bearer 123456');
+
+      fetch('http://localhost:3000', {
+        method: 'GET',
+        headers: headers
+      })
+      .then(response => response.text())
+      .then(data => alert('Respuesta del servidor:\n' + data))
+      .catch(err => console.error('Error:', err));
+    }
+  </script>
+</body>
+</html>

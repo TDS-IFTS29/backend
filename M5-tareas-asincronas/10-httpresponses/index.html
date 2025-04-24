@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cliente Fetch Local</title>
+</head>
+<body>
+  <h1>Usuarios desde servidor local</h1>
+
+  <!-- Botón que dispara la petición -->
+  <button onclick="cargarUsuarios()">Cargar</button>
+
+  <!-- Área donde se mostrarán los datos -->
+  <pre id="resultado"></pre>
+
+  <script>
+    function cargarUsuarios() {
+      // Creamos cabeceras personalizadas
+      const headers = new Headers();
+      headers.set('X-Cliente-ID', 'abc123'); // Enviamos una cabecera personalizada
+
+      // Realizamos la petición al servidor local
+      fetch('http://localhost:3000/api/usuarios', {
+        method: 'GET',
+        headers: headers
+      })
+      .then(response => {
+        // Mostramos algunas cabeceras de la respuesta
+        console.log('Código HTTP:', response.status);
+        console.log('X-App-Version:', response.headers.get('X-App-Version'));
+
+        return response.json(); // Convertimos el cuerpo a JSON
+      })
+      .then(data => {
+        // Mostramos los datos formateados en pantalla
+        document.getElementById('resultado').textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(err => {
+        console.error('Error:', err);
+      });
+    }
+  </script>
+</body>
+</html>
