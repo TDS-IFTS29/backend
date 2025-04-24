@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente CORS</title>
+</head>
+<body>
+    <h1>Prueba CORS desde el cliente</h1>
+    <button onclick="obtenerDatos()">Obtener datos</button>
+
+    <script>
+        function obtenerDatos() {
+            fetch('http://localhost:4000/api/datos')
+                .then(res => res.json())
+                .then(data => alert('✅ Respuesta: ' + data.mensaje))
+                .catch(err => alert('❌ Error al obtener datos: ' + err));
+        }
+    </script>
+</body>
+</html>
